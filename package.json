@@ -1,0 +1,12 @@
+{
+  "name": "fintech-upload-screening",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/screening_server.ts",
+    "test": "node --experimental-strip-types test/screening.test.ts"
+  }
+}
